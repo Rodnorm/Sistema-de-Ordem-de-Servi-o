@@ -5,7 +5,13 @@ import java.util.Date;
 
 
 public class OrdemServico {
-
+    private int numeroOrderServico;
+    private Date dataInicial;
+    private Date dataConclusao;
+    private double valor;
+    private String descricao;
+    
+    
     public int getNumeroOrderServico() {
         return numeroOrderServico;
     }
@@ -45,11 +51,7 @@ public class OrdemServico {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-    private int numeroOrderServico;
-    private Date dataInicial;
-    private Date dataConclusao;
-    private double valor;
-    private String descricao;
+    
     
     
 }

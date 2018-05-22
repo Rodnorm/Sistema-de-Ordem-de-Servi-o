@@ -5,10 +5,10 @@ package sistema.de.ordem.de.serviço.models;
 public class Pessoa {
     public String nome;
     public String dtNascimento;
-    public int cpf;
+    public String cpf;
     public String telefone;
    
-    public Pessoa(String nome, String dtNascimento, int cpf, String telefone){
+    public Pessoa(String nome, String dtNascimento, String cpf, String telefone){
         this.nome = nome;
         this.dtNascimento = dtNascimento;
         this.cpf = cpf;
@@ -34,12 +34,12 @@ public class Pessoa {
     }
 
    
-    public int getCPF() {
+    public String getCPF() {
         return cpf;
     }
 
    
-    public void setCPF(int CPF) {
+    public void setCPF(String CPF) {
         this.cpf = CPF;
     }
 
